@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="3" parallel="methods">
+    <test verbose="2" preserve-order="true" name="/Users/abdullah/demo/AutomationFramework" >
+        <classes>
+            <class name="test.LoginTest"/>
+            <class name="test.HomePageTest"/>
+<!--                <methods>-->
+<!--                    <include name="firstTest"/>-->
+<!--                    <include name="secondTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
